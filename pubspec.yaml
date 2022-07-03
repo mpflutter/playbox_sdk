@@ -1,0 +1,36 @@
+name: playbox_sdk
+description: The Playbox SDK for MPFlutter.
+version: 1.0.0
+publish_to: none
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  network_info_plus: "2.1.3"
+  connectivity_plus: "2.3.4"
+  # Already copy to lib/share_plus => share_plus: "4.0.8" 
+  device_info_plus: "3.2.4"
+  sensors_plus: "1.3.2"
+  battery_plus: "2.1.4"
+  path_provider: "2.0.9"
+  path_provider_ios: "2.0.9"
+  path_provider_android: "2.0.9"
+  geolocator: "8.2.1"
+  file_picker:
+    git: https://github.com/mpflutter-plugins/flutter_file_picker
+  mp_file: "^0.1.0"
+  mime: any
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+dependency_overrides: 
+  meta: ^1.7.0 
+  vector_math: ^2.1.2
+  collection: 1.15.0
+  characters: 1.2.0
+  flutter:
+    path: /Users/saiakirahui/Documents/mpflutter/mpflutter/packages/flutter
+  mpcore:
+    path: /Users/saiakirahui/Documents/mpflutter/mpflutter/packages/mpcore
